@@ -1,1 +1,2 @@
 # Portfolio-Website-Builder-Platform
+This is a project for academic course at first then we could go global. We will like face more competetion as this is a common thing nowadays, if we find our "unique" thing then we could be among the succeeding people.
