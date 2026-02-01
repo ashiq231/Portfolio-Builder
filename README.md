@@ -9,7 +9,16 @@
 > **A profession-aware, theme-customizable SaaS platform for creating professional portfolio websites without coding knowledge.**
 
 ![Project Status](https://img.shields.io/badge/status-in%20development-yellow)
-![Progress](https://img.shields.io/badge/progress-5%25-orange)
+![Progress](https://img.shields.io/badge/progress-2%25-orange)
+
+---
+
+## 📊 Project Statistics
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ashiq231/Portfolio-Builder)
+![GitHub contributors](https://img.shields.io/github/contributors/ashiq231/Portfolio-Builder)
+![GitHub last commit](https://img.shields.io/github/last-commit/ashiq231/Portfolio-Builder)
+![GitHub repo size](https://img.shields.io/github/repo-size/ashiq231/Portfolio-Builder)
 
 ---
 
@@ -421,15 +430,6 @@ Examples:
 6. Weekly: merge `dev` → `main`
 
 **Detailed guidelines(will be added later):** [CONTRIBUTING.md](./CONTRIBUTING.md)
-
----
-
-## 📊 Project Statistics
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ashiq231/Portfolio-Builder)
-![GitHub contributors](https://img.shields.io/github/contributors/ashiq231/Portfolio-Builder)
-![GitHub last commit](https://img.shields.io/github/last-commit/ashiq231/Portfolio-Builder)
-![GitHub repo size](https://img.shields.io/github/repo-size/ashiq231/Portfolio-Builder)
 
 ---
 
