@@ -470,7 +470,7 @@ All rights of this project is reserved. This project  will be licensed under the
 
 ### ⭐ Star us on GitHub — it helps!
 
-**Made with ❤️ by Team Portfolio Builder**
+**Made by Team Galacticos**
 
 *Empowering professionals, one portfolio at a time.*
 
