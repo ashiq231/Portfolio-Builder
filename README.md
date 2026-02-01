@@ -374,10 +374,9 @@ Portfolio-Builder/
 
 **Academic Context:**
 - **Institution:** Daffodil International University
-- **Course:** Software Engineering Capstone Project
-- **Supervisor:** Md. Rashedul Alam
 - **Course Title:** Software Engineering Design Capstone Project
 - **Course Code:** SE 331
+- **Supervisor:** Md. Rashedul Alam
 - **Semester:** Spring 2026
 ---
 
