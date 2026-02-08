@@ -119,3 +119,67 @@
 .input-with-icon .input {
     padding-left: 48px;
 }
+.auth-divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gray-200);
+}
+
+.auth-divider span {
+    color: var(--gray-500);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.auth-footer {
+    margin-top: 32px;
+    text-align: center;
+    color: var(--gray-600);
+    font-size: 15px;
+}
+
+.auth-footer a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.2s ease;
+}
+
+.auth-footer a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.forgot-password-link {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: var(--primary);
+    text-decoration: none;
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
