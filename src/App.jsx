@@ -14,3 +14,66 @@ import PortfolioBuilder from './components/builder/PortfolioBuilder';
 import PublicPortfolio from './components/portfolio/PublicPortfolio';
 import BuyCredits from './components/credits/BuyCredits';
 import AdminPanel from './components/admin/AdminPanel';
+
+function App() {
+    return (
+        <AuthProvider>
+            <Router>
+                <Routes>
+                    {/* Public Routes */}
+                    <Route path="/" element={<LandingPage />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/signup" element={<Signup />} />
+                    <Route path="/forgot-password" element={<ForgotPassword />} />
+                    <Route path="/p/:username" element={<PublicPortfolio />} />
+
+                    {/* Protected Routes */}
+                    <Route
+                        path="/dashboard"
+                        element={
+                            <ProtectedRoute>
+                                <Dashboard />
+                            </ProtectedRoute>
+                        }
+                    />
+                    <Route
+                        path="/create"
+                        element={
+                            <ProtectedRoute>
+                                <PortfolioBuilder />
+                            </ProtectedRoute>
+                        }
+                    />
+                    <Route
+                        path="/edit/:portfolioId"
+                        element={
+                            <ProtectedRoute>
+                                <PortfolioBuilder />
+                            </ProtectedRoute>
+                        }
+                    />
+                    <Route
+                        path="/credits"
+                        element={
+                            <ProtectedRoute>
+                                <BuyCredits />
+                            </ProtectedRoute>
+                        }
+                    />
+
+                    {/* Admin Routes */}
+                    <Route
+                        path="/admin"
+                        element={
+                            <AdminRoute>
+                                <AdminPanel />
+                            </AdminRoute>
+                        }
+                    />
+                </Routes>
+            </Router>
+        </AuthProvider>
+    );
+}
+
+export default App;
