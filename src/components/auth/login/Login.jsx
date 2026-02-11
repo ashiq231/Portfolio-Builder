@@ -22,13 +22,14 @@ const Login = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        if (loading) return;
         setError('');
         setLoading(true);
 
         const { error } = await signIn(formData.email, formData.password);
 
         if (error) {
-            setError(error.message);
+            setError(error.message || 'Login failed. Please try again.');
             setLoading(false);
         } else {
             navigate('/dashboard');
