@@ -20,7 +20,7 @@ const ForgotPassword = () => {
         const { error } = await resetPassword(email);
 
         if (error) {
-            setError(error.message);
+            setError(error.message || 'Failed to send reset email. Please try again.');
         } else {
             setMessage('Check your inbox for further instructions.');
         }
