@@ -403,3 +403,85 @@
     font-size: 28px;
     margin: 0 auto 20px;
 }
+.portfolio-footer {
+    background: hsl(var(--foreground));
+    color: white;
+    padding: 48px 20px 32px;
+}
+
+.portfolio-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 56px;
+    height: 56px;
+    background: hsl(var(--primary));
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px hsl(var(--primary) / 0.3);
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+@media (max-width: 968px) {
+    .portfolio-nav-links {
+        display: none;
+    }
+
+    .portfolio-header {
+        padding: 60px 20px;
+    }
+
+    .portfolio-section {
+        padding: 60px 20px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .portfolio-header h1 {
+        font-size: 2rem;
+    }
+
+    .profession {
+        font-size: 1.25rem;
+    }
+
+    .portfolio-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .about-text {
+        font-size: 1rem;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
